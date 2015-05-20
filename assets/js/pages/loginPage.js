@@ -31,6 +31,7 @@ var DisplayArea = React.createClass({
 });
 
 React.render(
-  <MainPage />,
+  <LoginPage />,
   document.getElementById('example')
 );
+
