@@ -2,7 +2,7 @@ var LoginPage = React.createClass({
   render: function() {
     return (
       <div>
-        <Text />
+        <Text data=LOGIN_TITLE/>
         <Input />
         <Input />
         <Button />
