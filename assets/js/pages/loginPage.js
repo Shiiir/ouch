@@ -1,30 +1,11 @@
-var MainPage = React.createClass({
+var LoginPage = React.createClass({
   render: function() {
     return (
       <div>
-        <NavArea />
-        <AppointmentPicker />
-        <DisplayArea />
-      </div>
-    );
-  }
-});
-
-var NavArea = React.createClass({
-  render: function() {
-    return (
-      <div className="commentBox">
-        Hello, world! I am a CommentAox.
-      </div>
-    );
-  }
-});
-
-var DisplayArea = React.createClass({
-  render: function() {
-    return (
-      <div>
-        And here's an area for display.
+        <Text />
+        <Input />
+        <Input />
+        <Button />
       </div>
     );
   }
@@ -32,6 +13,6 @@ var DisplayArea = React.createClass({
 
 React.render(
   <LoginPage />,
-  document.getElementById('example')
+  document.getElementById('content')
 );
 
