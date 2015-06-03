@@ -1,3 +1,12 @@
-var LOGIN_TITLE = "Hiiir 按摩服務";
-var LOGIN_USERNAME_INPUT_PLACEHOLDER = "Username";
-var LOGIN_PASSWORD_INPUT_PLACEHOLDER = "Password";
+var LOGIN_PAGE = {
+  TITLE: "Hiiir 按摩服務",
+  USERNAME_INPUT: {
+    PLACEHOLDER: "Username",
+    REF: "username"
+  },
+  PASSWORD_INPUT: {
+    PLACEHOLDER: "Password",
+    REF: "password"
+  },
+  SUBMIT_BUTTON: "Login"
+};
