@@ -1,1 +1,3 @@
 var LOGIN_TITLE = "Hiiir 按摩服務";
+var LOGIN_USERNAME_INPUT_PLACEHOLDER = "Username";
+var LOGIN_PASSWORD_INPUT_PLACEHOLDER = "Password";
