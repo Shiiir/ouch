@@ -2,7 +2,7 @@ var NavArea = React.createClass({
   render: function() {
     return (
       <div className="commentBox">
-        Hello, world! I am a CommentAox.
+        <Text size="bg" content="Hello, world! I am a CommentAox."></Text>
       </div>
     );
   }
