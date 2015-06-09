@@ -1,3 +1,16 @@
-.lalala {
-  /*properties*/
+/* Component - Text */
+span.text {
+  color: white;
+}
+
+span.text.lg {
+  font-size: 45px;
+}
+
+span.text.md {
+  font-size: 35px;
+}
+
+span.text.sm {
+  font-size: 25px;
 }
