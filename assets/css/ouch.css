@@ -14,3 +14,13 @@ span.text.md {
 span.text.sm {
   font-size: 25px;
 }
+
+/* Component - Star */
+.star {
+  color: white;
+  cursor: pointer;
+  font-size: 25pt;
+}
+.star.active {
+  color: #D3E6F4;
+}
