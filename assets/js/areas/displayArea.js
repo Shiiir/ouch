@@ -1,8 +1,14 @@
 var DisplayArea = React.createClass({
+  getDefaultProps: function() {
+	return {
+		content: ""
+	};
+  },
+
   render: function() {
     return (
-      <div>
-        And here's an area for display.
+      <div class="note">
+        <Text content={this.props.content}/>
       </div>
     );
   }
